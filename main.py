@@ -20,9 +20,11 @@ class Smartphone(Phone,Camera):
     def call(self):
         self._Phone__call()
     def photographing(self):
-        print('The Smartphone is making photos')
+        print('The Smartphone is making photos') 
+
 
 
 S1 = Smartphone('poco x7pro','xiaomi','320$','sony350','50')
 S1.call()
 S1.photographing()
+print('0')
